@@ -1,5 +1,11 @@
 {
     "require": {
-        "team-reflex/discord-php": "^1.0"
+        "team-reflex/discord-php": "^2.1",
+        "maknz/slack": "^1.7"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
     }
 }

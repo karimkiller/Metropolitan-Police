@@ -1,8 +1,8 @@
 <?php
 session_start();
-require_once 'vendor/autoload.php'; // Include the Composer autoloader
+require_once __DIR__ . '/vendor/autoload.php'; // Include the Composer autoloader
 
-use DiscordWebhooks\Embed;
+use Maknz\Slack\Client;
 
 // Check if the user is authenticated and has a valid token
 if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated'] || !isset($_SESSION['token'])) {
@@ -18,7 +18,7 @@ if (isset($_SESSION['start_time']) && (time() - $_SESSION['start_time'] > 20)) {
     session_regenerate_id(true); // Regenerate session ID for security
     session_unset();
     session_destroy();
-    logToDiscord("Session expired for user: $username");
+    logToDiscord("Session expired for user: " . $_SESSION['username']);
     header('Location: login.php');
     exit();
 }
@@ -34,14 +34,14 @@ if (isset($_SESSION['start_time']) && (time() - $_SESSION['start_time'] > 20)) {
 function logToDiscord($message) {
     $webhookUrl = 'https://discord.com/api/webhooks/1180407503973007360/-9__bwR6BrTVEj2gP61U06Lewg-gASMWkf9lZyEM-55CgaLlkOh6bvWGUsqwu_OSGmee'; // Replace with your actual Discord webhook URL
 
-    $embed = new Embed();
-    $embed->title('User Action Log')
-        ->color(0x4287f5) // Change the color as needed
-        ->description($message)
-        ->timestamp();
-
+    $embed = [
+        'title' => 'User Action Log',
+        'color' => hexdec('4287f5'), // Change the color as needed
+        'description' => $message, // Fix the typo here
+        'timestamp' => date('c'),
+    ];
     $data = [
-        'embeds' => [$embed->toArray()],
+        'embeds' => [$embed],
     ];
 
     $options = [

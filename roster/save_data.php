@@ -1,8 +1,7 @@
-
-
-
-
 <?php
+session_start();
+require_once __DIR__ . '/vendor/autoload.php'; // Include the Composer autoloader
+
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -40,6 +39,10 @@ if ($checkDuplicateResult->num_rows > 0) {
         $message = "Data saved successfully!";
         $messageClass = "success";
 
+        // Log the user's input to Discord
+        $discordMessage = "User submitted data:\nFirst Name: $firstName\nLast Name: $lastName\nCall Sign: $callSign";
+        logToDiscord($discordMessage);
+
         // Redirect to view_data.php after 5 seconds
         echo '<script>
                 setTimeout(function(){
@@ -53,6 +56,31 @@ if ($checkDuplicateResult->num_rows > 0) {
 }
 
 $conn->close();
+
+function logToDiscord($message) {
+    $webhookUrl = 'https://discord.com/api/webhooks/1180407503973007360/-9__bwR6BrTVEj2gP61U06Lewg-gASMWkf9lZyEM-55CgaLlkOh6bvWGUsqwu_OSGmee'; // Replace with your actual Discord webhook URL
+
+    $embed = [
+        'title' => 'User Action Log',
+        'color' => hexdec('4287f5'), // Change the color as needed
+        'description' => $message,
+        'timestamp' => date('c'),
+    ];
+    $data = [
+        'embeds' => [$embed],
+    ];
+
+    $options = [
+        'http' => [
+            'header' => 'Content-Type: application/json',
+            'method' => 'POST',
+            'content' => json_encode($data),
+        ],
+    ];
+
+    $context = stream_context_create($options);
+    file_get_contents($webhookUrl, false, $context);
+}
 ?>
 
 <!DOCTYPE html>
