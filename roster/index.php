@@ -7,7 +7,7 @@ use Maknz\Slack\Client;
 // Check if the user is authenticated and has a valid token
 if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated'] || !isset($_SESSION['token'])) {
     // Redirect to login page if not authenticated
-    logToDiscord("Unauthorized access attempt to index.php");
+    logToDiscord("Unauthorized access attempt to index.php The dumbass thought he could outsmart the system lol");
     header('Location: login.php');
     exit();
 }
