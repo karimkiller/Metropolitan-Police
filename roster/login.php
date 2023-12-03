@@ -8,7 +8,29 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    if ($username === 'karimkiller' && $password === 'Sandler22') {
+    // Database connection details
+    $host = 'localhost';
+    $dbUsername = 'root';
+    $dbPassword = '';
+    $dbName = 'user_authentication';
+
+    // Create a database connection
+    $conn = new mysqli($host, $dbUsername, $dbPassword, $dbName);
+
+    // Check the connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
+    // Prepare and execute the SQL statement to check user credentials
+    $stmt = $conn->prepare("SELECT * FROM users WHERE username = ?");
+    $stmt->bind_param("s", $username);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $user = $result->fetch_assoc();
+
+    // Verify password and log in if credentials are valid
+    if ($user && password_verify($password, $user['password'])) {
         $_SESSION['authenticated'] = true;
         $_SESSION['start_time'] = time();
         $_SESSION['token'] = bin2hex(random_bytes(32));
@@ -19,6 +41,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         $error = 'Invalid username or password.';
     }
+
+    // Close the statement and connection
+    $stmt->close();
+    $conn->close();
 }
 
 if (isset($_SESSION['start_time']) && (time() - $_SESSION['start_time'] > 20)) {
