@@ -1,54 +1,33 @@
 <?php
 session_start();
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php'; // Include the Composer autoloader
 
 use Maknz\Slack\Client;
 
+// Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Validate username and password (replace with secure validation)
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    // Database connection details
-    $host = 'localhost';
-    $dbUsername = 'root';
-    $dbPassword = '';
-    $dbName = 'user_authentication';
-
-    // Create a database connection
-    $conn = new mysqli($host, $dbUsername, $dbPassword, $dbName);
-
-    // Check the connection
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    }
-
-    // Prepare and execute the SQL statement to check user credentials
-    $stmt = $conn->prepare("SELECT * FROM users WHERE username = ?");
-    $stmt->bind_param("s", $username);
-    $stmt->execute();
-    $result = $stmt->get_result();
-    $user = $result->fetch_assoc();
-
-    // Verify password and log in if credentials are valid
-    if ($user && password_verify($password, $user['password'])) {
+    // For demonstration purposes, check against hard-coded values
+    if ($username === 'karimkiller' && $password === 'Sandler22') {
         $_SESSION['authenticated'] = true;
-        $_SESSION['start_time'] = time();
-        $_SESSION['token'] = bin2hex(random_bytes(32));
-        $_SESSION['username'] = $username;
+        $_SESSION['start_time'] = time(); // Record the login time
+        $_SESSION['token'] = bin2hex(random_bytes(32)); // Generate a secure token
+        $_SESSION['username'] = $username; // Save the username
         logToDiscord("User logged in: $username");
         header('Location: index.php');
         exit();
     } else {
         $error = 'Invalid username or password.';
     }
-
-    // Close the statement and connection
-    $stmt->close();
-    $conn->close();
 }
 
+// Check session timeout
 if (isset($_SESSION['start_time']) && (time() - $_SESSION['start_time'] > 20)) {
-    session_regenerate_id(true);
+    // If more than 20 seconds have passed, destroy the session and redirect to login
+    session_regenerate_id(true); // Regenerate session ID for security
     session_unset();
     session_destroy();
     logToDiscord("Session expired for user: $username");
@@ -57,11 +36,11 @@ if (isset($_SESSION['start_time']) && (time() - $_SESSION['start_time'] > 20)) {
 }
 
 function logToDiscord($message) {
-    $webhookUrl = 'https://discord.com/api/webhooks/1180407503973007360/-9__bwR6BrTVEj2gP61U06Lewg-gASMWkf9lZyEM-55CgaLlkOh6bvWGUsqwu_OSGmee';
+    $webhookUrl = 'https://discord.com/api/webhooks/1180407503973007360/-9__bwR6BrTVEj2gP61U06Lewg-gASMWkf9lZyEM-55CgaLlkOh6bvWGUsqwu_OSGmee'; // Replace with your actual Discord webhook URL
 
     $embed = [
         'title' => 'User Action Log',
-        'color' => hexdec('4287f5'),
+        'color' => hexdec('4287f5'), // Change the color as needed
         'description' => $message,
         'timestamp' => date('c'),
     ];
