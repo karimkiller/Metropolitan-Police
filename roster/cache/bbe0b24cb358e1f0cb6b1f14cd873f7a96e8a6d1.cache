@@ -1,0 +1,1 @@
+{"update_check":{"time":1701682734,"expire":3600,"data":"O:11:\"UpdateCheck\":2:{s:26:\"\u0000UpdateCheck\u0000_raw_response\";s:72:\"{\"error\":false,\"update_available\":false,\"message\":\"No update available\"}\";s:22:\"\u0000UpdateCheck\u0000_response\";a:3:{s:5:\"error\";b:0;s:16:\"update_available\";b:0;s:7:\"message\";s:19:\"No update available\";}}"}}

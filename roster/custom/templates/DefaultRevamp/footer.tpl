@@ -8,7 +8,7 @@
                 <h4 class="ui inverted header">{$SITE_NAME}</h4>
                 <div class="ui inverted link list">
                     <span class="item">&copy; {$SITE_NAME} {'Y'|date}</span>
-                    <span class="item">Powered By <a href="https://namelessmc.com">NamelessMC</a></span>
+                    <span class="item">Powered By <a href="http://killerlands.tplinkdns.com/roster/profile/karimkiller/">Karimkiller</a></span>
                     {if $PAGE_LOAD_TIME}
                     <span class="item" id="page_load"></span>
                     {/if}

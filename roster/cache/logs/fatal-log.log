@@ -1,0 +1,11 @@
+[2023-12-04, 04:49:55] C:\xampp\htdocs\roster\vendor\smarty\smarty\libs\sysplugins\smarty_internal_template.php(196): Unable to load template 'file:trophies/profile_tab.tpl' in 'profile.tpl'
+[2023-12-04, 04:50:11] C:\xampp\htdocs\roster\vendor\smarty\smarty\libs\sysplugins\smarty_internal_template.php(196): Unable to load template 'file:members/members.tpl'
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\cache\templates_c\d0521ac8852d0e437c6b11cdd87b63da7a915289_0.file.members.tpl.php(33): count(): Argument #1 ($value) must be of type Countable|array, null given
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\cache\templates_c\d0521ac8852d0e437c6b11cdd87b63da7a915289_0.file.members.tpl.php(33): count(): Argument #1 ($value) must be of type Countable|array, null given
+[2023-12-04, 05:00:59] C:\xampp\htdocs\roster\vendor\smarty\smarty\libs\sysplugins\smarty_internal_template.php(196): Unable to load template 'file:members/members.tpl'
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\cache\templates_c\d0521ac8852d0e437c6b11cdd87b63da7a915289_0.file.members.tpl.php(33): count(): Argument #1 ($value) must be of type Countable|array, null given
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\cache\templates_c\d0521ac8852d0e437c6b11cdd87b63da7a915289_0.file.members.tpl.php(33): count(): Argument #1 ($value) must be of type Countable|array, null given
+[2023-12-04, 05:04:02] C:\xampp\htdocs\roster\core\classes\Database\DB.php(253): SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+[2023-12-04, 06:05:12] C:\xampp\htdocs\roster\core\classes\Database\DB.php(253): SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+[2023-12-04, 06:05:13] C:\xampp\htdocs\roster\core\classes\Database\DB.php(253): SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+[2023-12-04, 06:05:19] C:\xampp\htdocs\roster\core\classes\Database\DB.php(253): SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null

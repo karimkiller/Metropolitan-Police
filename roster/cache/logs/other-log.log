@@ -1,0 +1,437 @@
+[2023-12-04, 06:31:12] Phinx by CakePHP - https://phinx.org.
+
+using config file core\migrations\phinx.php
+using config parser php
+using migration paths 
+ - C:\xampp\htdocs\roster\core\migrations
+warning no environment specified, defaulting to: nameless
+using adapter mysql
+using database Metropolitan_police
+ordering by creation time
+
+ == 20220517030607 CreateLanguagesTable: migrating
+ == 20220517030607 CreateLanguagesTable: migrated 0.0097s
+
+ == 20220517030609 CreateTemplatesTable: migrating
+ == 20220517030609 CreateTemplatesTable: migrated 0.0101s
+
+ == 20220517030611 CreateUsersTable: migrating
+ == 20220517030611 CreateUsersTable: migrated 0.0672s
+
+ == 20220517030657 CreateReactionsTable: migrating
+ == 20220517030657 CreateReactionsTable: migrated 0.0095s
+
+ == 20220518024302 CreatePanelTemplatesTable: migrating
+ == 20220518024302 CreatePanelTemplatesTable: migrated 0.0093s
+
+ == 20220518024945 CreateBlockedUsersTable: migrating
+ == 20220518024945 CreateBlockedUsersTable: migrated 0.0593s
+
+ == 20220518025652 CreateGroupsTable: migrating
+ == 20220518025652 CreateGroupsTable: migrated 0.0108s
+
+ == 20220518025817 CreateUsersGroupsTable: migrating
+ == 20220518025817 CreateUsersGroupsTable: migrated 0.0602s
+
+ == 20220518031216 CreateAlertsTable: migrating
+ == 20220518031216 CreateAlertsTable: migrated 0.0473s
+
+ == 20220518032305 CreateCustomAnnouncementsTable: migrating
+ == 20220518032305 CreateCustomAnnouncementsTable: migrated 0.0093s
+
+ == 20220518032919 CreateCustomPagesTable: migrating
+ == 20220518032919 CreateCustomPagesTable: migrated 0.0094s
+
+ == 20220518033833 CreateCustomPagesPermissionsTable: migrating
+ == 20220518033833 CreateCustomPagesPermissionsTable: migrated 0.0579s
+
+ == 20220518034729 CreateEmailErrorsTable: migrating
+ == 20220518034729 CreateEmailErrorsTable: migrated 0.0562s
+
+ == 20220518035532 CreateGroupsTemplatesTable: migrating
+ == 20220518035532 CreateGroupsTemplatesTable: migrated 0.0548s
+
+ == 20220518040058 CreateGroupSyncTable: migrating
+ == 20220518040058 CreateGroupSyncTable: migrated 0.0458s
+
+ == 20220518040456 CreateHooksTable: migrating
+ == 20220518040456 CreateHooksTable: migrated 0.0102s
+
+ == 20220518040806 CreateIpBansTable: migrating
+ == 20220518040806 CreateIpBansTable: migrated 0.0422s
+
+ == 20220519020719 CreateInfractionsTable: migrating
+ == 20220519020719 CreateInfractionsTable: migrated 0.0508s
+
+ == 20220519021237 CreateLogsTable: migrating
+ == 20220519021237 CreateLogsTable: migrated 0.0095s
+
+ == 20220519021711 CreateMcServersTable: migrating
+ == 20220519021711 CreateMcServersTable: migrated 0.0109s
+
+ == 20220519022400 CreateModulesTable: migrating
+ == 20220519022400 CreateModulesTable: migrated 0.0233s
+
+ == 20220519022945 CreateWidgetsTable: migrating
+ == 20220519022945 CreateWidgetsTable: migrated 0.0094s
+
+ == 20220519023439 CreatePrivacyTermsTable: migrating
+ == 20220519023439 CreatePrivacyTermsTable: migrated 0.0093s
+
+ == 20220519023748 CreateOauthTable: migrating
+ == 20220519023748 CreateOauthTable: migrated 0.0098s
+
+ == 20220519024247 CreateOauthUsersTable: migrating
+ == 20220519024247 CreateOauthUsersTable: migrated 0.0445s
+
+ == 20220519024833 CreateOnlineGuestsTable: migrating
+ == 20220519024833 CreateOnlineGuestsTable: migrated 0.0097s
+
+ == 20220519025351 CreatePageDescriptionsTable: migrating
+ == 20220519025351 CreatePageDescriptionsTable: migrated 0.0089s
+
+ == 20220519025851 CreatePrivateMessagesTable: migrating
+ == 20220519025851 CreatePrivateMessagesTable: migrated 0.0453s
+
+ == 20220519030416 CreatePrivateMessagesRepliesTable: migrating
+ == 20220519030416 CreatePrivateMessagesRepliesTable: migrated 0.0591s
+
+ == 20220519030902 CreatePrivateMessagesUsersTable: migrating
+ == 20220519030902 CreatePrivateMessagesUsersTable: migrated 0.0853s
+
+ == 20220519031223 CreateProfileFieldsTable: migrating
+ == 20220519031223 CreateProfileFieldsTable: migrated 0.0111s
+
+ == 20220519031732 CreateUsersProfileFieldsTable: migrating
+ == 20220519031732 CreateUsersProfileFieldsTable: migrated 0.0467s
+
+ == 20220519032328 CreateUsersSessionTable: migrating
+ == 20220519032328 CreateUsersSessionTable: migrated 0.0524s
+
+ == 20220519034124 CreateUsersIpsTable: migrating
+ == 20220519034124 CreateUsersIpsTable: migrated 0.0501s
+
+ == 20220519040344 CreateUsersAdminSessionTable: migrating
+ == 20220519040344 CreateUsersAdminSessionTable: migrated 0.0505s
+
+ == 20220519040925 CreateIntegrationsTable: migrating
+ == 20220519040925 CreateIntegrationsTable: migrated 0.0096s
+
+ == 20220519041811 CreateUsersIntegrationsTable: migrating
+ == 20220519041811 CreateUsersIntegrationsTable: migrated 0.0701s
+
+ == 20220519150540 CreatePlaceholdersSettingsTable: migrating
+ == 20220519150540 CreatePlaceholdersSettingsTable: migrated 0.0380s
+
+ == 20220519151124 CreateUsersPlaceholdersTable: migrating
+ == 20220519151124 CreateUsersPlaceholdersTable: migrated 0.0370s
+
+ == 20220519152021 CreateUserProfileWallPostsTable: migrating
+ == 20220519152021 CreateUserProfileWallPostsTable: migrated 0.0530s
+
+ == 20220519152346 CreateUserProfileWallPostsReactionsTable: migrating
+ == 20220519152346 CreateUserProfileWallPostsReactionsTable: migrated 0.0497s
+
+ == 20220519152544 CreateUserProfileWallPostsRepliesTable: migrating
+ == 20220519152544 CreateUserProfileWallPostsRepliesTable: migrated 0.0452s
+
+ == 20220519153135 CreateForumsTable: migrating
+ == 20220519153135 CreateForumsTable: migrated 0.0465s
+
+ == 20220519153136 CreateTopicsTable: migrating
+ == 20220519153136 CreateTopicsTable: migrated 0.1036s
+
+ == 20220519153137 CreatePostsTable: migrating
+ == 20220519153137 CreatePostsTable: migrated 0.0622s
+
+ == 20220519153139 CreateReportsTable: migrating
+ == 20220519153139 CreateReportsTable: migrated 0.1038s
+
+ == 20220519153651 CreateReportsCommentsTable: migrating
+ == 20220519153651 CreateReportsCommentsTable: migrated 0.0484s
+
+ == 20220519154102 CreateSettingsTable: migrating
+ == 20220519154102 CreateSettingsTable: migrated 0.0143s
+
+ == 20220519154314 CreateQueryErrorsTable: migrating
+ == 20220519154314 CreateQueryErrorsTable: migrated 0.0088s
+
+ == 20220519154440 CreateQueryResultsTable: migrating
+ == 20220519154440 CreateQueryResultsTable: migrated 0.0800s
+
+ == 20220519154832 CreateForumsLabelsTable: migrating
+ == 20220519154832 CreateForumsLabelsTable: migrated 0.1827s
+
+ == 20220519161304 CreateTopicsFollowingTable: migrating
+ == 20220519161304 CreateTopicsFollowingTable: migrated 0.1374s
+
+ == 20220519161539 CreateForumsPermissionsTable: migrating
+ == 20220519161539 CreateForumsPermissionsTable: migrated 0.0495s
+
+ == 20220519161812 CreateForumsReactionsTable: migrating
+ == 20220519161812 CreateForumsReactionsTable: migrated 0.0479s
+
+ == 20220519161954 CreateForumsTopicLabelsTable: migrating
+ == 20220519161954 CreateForumsTopicLabelsTable: migrated 0.0087s
+
+ == 20220525051321 CreateUuidCacheTable: migrating
+ == 20220525051321 CreateUuidCacheTable: migrated 0.0095s
+
+ == 20220525051337 CreateUsersUsernameHistoryTable: migrating
+ == 20220525051337 CreateUsersUsernameHistoryTable: migrated 0.0455s
+
+ == 20220602132634 NullablePostDate: migrating
+ == 20220602132634 NullablePostDate: migrated 0.0343s
+
+ == 20220609184529 MakeUsernameColumnNullableOnUserIntegrationsTable: migrating
+ == 20220609184529 MakeUsernameColumnNullableOnUserIntegrationsTable: migrated 0.0279s
+
+ == 20220612041555 DropGroupHtmlLgColumnOnGroupsTable: migrating
+ == 20220612041555 DropGroupHtmlLgColumnOnGroupsTable: migrated 0.0107s
+
+ == 20220620183016 AddModuleSettingsColumn: migrating
+ == 20220620183016 AddModuleSettingsColumn: migrated 0.0213s
+
+ == 20220620190645 MoveEmailSettingsToConfig: migrating
+ == 20220620190645 MoveEmailSettingsToConfig: migrated 0.0014s
+
+ == 20220805152044 ForumPostMediumText: migrating
+ == 20220805152044 ForumPostMediumText: migrated 0.0371s
+
+ == 20220805152052 PrivateMessageMediumText: migrating
+ == 20220805152052 PrivateMessageMediumText: migrated 0.0381s
+
+ == 20220805152101 CustomPageMediumText: migrating
+ == 20220805152101 CustomPageMediumText: migrated 0.0252s
+
+ == 20220805153842 LogInfoMediumText: migrating
+ == 20220805153842 LogInfoMediumText: migrated 0.0283s
+
+ == 20220805174255 SettingsValueText: migrating
+ == 20220805174255 SettingsValueText: migrated 0.0450s
+
+ == 20220807142446 AddUserSessionActivityColumns: migrating
+ == 20220807142446 AddUserSessionActivityColumns: migrated 0.0480s
+
+ == 20220807153708 DeleteAdminSessionTable: migrating
+ == 20220807153708 DeleteAdminSessionTable: migrated 0.0078s
+
+ == 20220921014904 CreateMemberListsTable: migrating
+ == 20220921014904 CreateMemberListsTable: migrated 0.0228s
+
+ == 20221230144555 ReportsReportedIdNullable: migrating
+ == 20221230144555 ReportsReportedIdNullable: migrated 0.0104s
+
+ == 20230114124352 UsersNightModeNullable: migrating
+ == 20230114124352 UsersNightModeNullable: migrated 0.0403s
+
+ == 20230121015140 AddAuthMeColumnsToUserTable: migrating
+ == 20230121015140 AddAuthMeColumnsToUserTable: migrated 0.0096s
+
+ == 20230206192726 CreateQueueTable: migrating
+ == 20230206192726 CreateQueueTable: migrated 0.0497s
+
+ == 20230302090631 AddImageColumnToPageDescriptionsTable: migrating
+ == 20230302090631 AddImageColumnToPageDescriptionsTable: migrated 0.0139s
+
+All Done. Took 2.9288s
+
+[2023-12-04, 04:49:55] C:\xampp\htdocs\roster\core\classes\Misc\NamelessOAuth.php(148) 2: Attempt to read property "enabled" on null
+[2023-12-04, 04:49:55] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(365) 8192: Creation of dynamic property Cobalt_Template::$_widgets is deprecated
+[2023-12-04, 04:49:55] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(366) 8192: Creation of dynamic property Cobalt_Template::$_cache is deprecated
+[2023-12-04, 04:49:55] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(367) 8192: Creation of dynamic property Cobalt_Template::$_smarty is deprecated
+[2023-12-04, 04:49:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 04:49:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 04:49:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 04:49:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 04:49:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(343) 2: Undefined array key "icon"
+[2023-12-04, 04:49:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 04:49:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 04:49:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 04:49:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 04:49:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(451) 2: Undefined array key "icon"
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\core\classes\Misc\NamelessOAuth.php(148) 2: Attempt to read property "enabled" on null
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\core\templates\frontend_init.php(50) 2: Undefined array key "route"
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\core\templates\frontend_init.php(50) 8192: str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(365) 8192: Creation of dynamic property Cobalt_Template::$_widgets is deprecated
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(366) 8192: Creation of dynamic property Cobalt_Template::$_cache is deprecated
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(367) 8192: Creation of dynamic property Cobalt_Template::$_smarty is deprecated
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\cache\templates_c\081ac8a5215cf2a4c34d655a16a19400fd48864c_0.file.statistics.tpl.php(52) 2: Undefined array key "LAST_MEMBER_VALUE"
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\cache\templates_c\081ac8a5215cf2a4c34d655a16a19400fd48864c_0.file.statistics.tpl.php(52) 2: Attempt to read property "value" on null
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\cache\templates_c\081ac8a5215cf2a4c34d655a16a19400fd48864c_0.file.statistics.tpl.php(52) 2: Trying to access array offset on value of type null
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(343) 2: Undefined array key "icon"
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(451) 2: Undefined array key "icon"
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\core\classes\Misc\NamelessOAuth.php(148) 2: Attempt to read property "enabled" on null
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(365) 8192: Creation of dynamic property Cobalt_Template::$_widgets is deprecated
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(366) 8192: Creation of dynamic property Cobalt_Template::$_cache is deprecated
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(367) 8192: Creation of dynamic property Cobalt_Template::$_smarty is deprecated
+[2023-12-04, 04:50:09] C:\xampp\htdocs\roster\core\templates\frontend_init.php(129) 2: Undefined variable $page_title
+[2023-12-04, 04:50:11] C:\xampp\htdocs\roster\core\classes\Misc\NamelessOAuth.php(148) 2: Attempt to read property "enabled" on null
+[2023-12-04, 04:50:11] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(365) 8192: Creation of dynamic property Cobalt_Template::$_widgets is deprecated
+[2023-12-04, 04:50:11] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(366) 8192: Creation of dynamic property Cobalt_Template::$_cache is deprecated
+[2023-12-04, 04:50:11] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(367) 8192: Creation of dynamic property Cobalt_Template::$_smarty is deprecated
+[2023-12-04, 04:53:08] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(365) 8192: Creation of dynamic property Cobalt_Template::$_widgets is deprecated
+[2023-12-04, 04:53:08] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(366) 8192: Creation of dynamic property Cobalt_Template::$_cache is deprecated
+[2023-12-04, 04:53:08] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(367) 8192: Creation of dynamic property Cobalt_Template::$_smarty is deprecated
+[2023-12-04, 04:53:47] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(365) 8192: Creation of dynamic property Cobalt_Template::$_widgets is deprecated
+[2023-12-04, 04:53:47] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(366) 8192: Creation of dynamic property Cobalt_Template::$_cache is deprecated
+[2023-12-04, 04:53:47] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(367) 8192: Creation of dynamic property Cobalt_Template::$_smarty is deprecated
+[2023-12-04, 04:53:55] C:\xampp\htdocs\roster\modules\Core\module.php(564) 8192: uasort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero
+[2023-12-04, 04:53:56] C:\xampp\htdocs\roster\modules\Core\module.php(564) 8192: uasort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero
+[2023-12-04, 04:53:59] C:\xampp\htdocs\roster\core\classes\Misc\NamelessOAuth.php(148) 2: Attempt to read property "enabled" on null
+[2023-12-04, 04:53:59] C:\xampp\htdocs\roster\core\classes\Misc\NamelessOAuth.php(148) 2: Attempt to read property "enabled" on null
+[2023-12-04, 04:53:59] C:\xampp\htdocs\roster\vendor\smarty\smarty\libs\sysplugins\smarty_internal_compile_private_modifier.php(112) 16384: Using php-function "ucfirst" as a modifier is deprecated and will be removed in a future release. Use Smarty::registerPlugin to explicitly register a custom modifier.
+[2023-12-04, 04:54:01] C:\xampp\htdocs\roster\modules\Core\module.php(564) 8192: uasort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\core\classes\Misc\NamelessOAuth.php(148) 2: Attempt to read property "enabled" on null
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(365) 8192: Creation of dynamic property Cobalt_Template::$_widgets is deprecated
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(366) 8192: Creation of dynamic property Cobalt_Template::$_cache is deprecated
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(367) 8192: Creation of dynamic property Cobalt_Template::$_smarty is deprecated
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(343) 2: Undefined array key "icon"
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(451) 2: Undefined array key "icon"
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\cache\templates_c\d0521ac8852d0e437c6b11cdd87b63da7a915289_0.file.members.tpl.php(33) 2: Undefined array key "WIDGETS_LEFT"
+[2023-12-04, 04:58:11] C:\xampp\htdocs\roster\cache\templates_c\d0521ac8852d0e437c6b11cdd87b63da7a915289_0.file.members.tpl.php(33) 2: Attempt to read property "value" on null
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\core\classes\Misc\NamelessOAuth.php(148) 2: Attempt to read property "enabled" on null
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(365) 8192: Creation of dynamic property Cobalt_Template::$_widgets is deprecated
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(366) 8192: Creation of dynamic property Cobalt_Template::$_cache is deprecated
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(367) 8192: Creation of dynamic property Cobalt_Template::$_smarty is deprecated
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(343) 2: Undefined array key "icon"
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(451) 2: Undefined array key "icon"
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\core\classes\Misc\NamelessOAuth.php(148) 2: Attempt to read property "enabled" on null
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(365) 8192: Creation of dynamic property Cobalt_Template::$_widgets is deprecated
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(366) 8192: Creation of dynamic property Cobalt_Template::$_cache is deprecated
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(367) 8192: Creation of dynamic property Cobalt_Template::$_smarty is deprecated
+[2023-12-04, 05:00:34] C:\xampp\htdocs\roster\core\templates\frontend_init.php(129) 2: Undefined variable $page_title
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\core\classes\Misc\NamelessOAuth.php(148) 2: Attempt to read property "enabled" on null
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(365) 8192: Creation of dynamic property Cobalt_Template::$_widgets is deprecated
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(366) 8192: Creation of dynamic property Cobalt_Template::$_cache is deprecated
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(367) 8192: Creation of dynamic property Cobalt_Template::$_smarty is deprecated
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(343) 2: Undefined array key "icon"
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(451) 2: Undefined array key "icon"
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\cache\templates_c\d0521ac8852d0e437c6b11cdd87b63da7a915289_0.file.members.tpl.php(33) 2: Undefined array key "WIDGETS_LEFT"
+[2023-12-04, 05:00:37] C:\xampp\htdocs\roster\cache\templates_c\d0521ac8852d0e437c6b11cdd87b63da7a915289_0.file.members.tpl.php(33) 2: Attempt to read property "value" on null
+[2023-12-04, 05:00:58] C:\xampp\htdocs\roster\core\classes\Misc\NamelessOAuth.php(148) 2: Attempt to read property "enabled" on null
+[2023-12-04, 05:00:59] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(365) 8192: Creation of dynamic property Cobalt_Template::$_widgets is deprecated
+[2023-12-04, 05:00:59] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(366) 8192: Creation of dynamic property Cobalt_Template::$_cache is deprecated
+[2023-12-04, 05:00:59] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(367) 8192: Creation of dynamic property Cobalt_Template::$_smarty is deprecated
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\core\classes\Misc\NamelessOAuth.php(148) 2: Attempt to read property "enabled" on null
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(365) 8192: Creation of dynamic property Cobalt_Template::$_widgets is deprecated
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(366) 8192: Creation of dynamic property Cobalt_Template::$_cache is deprecated
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(367) 8192: Creation of dynamic property Cobalt_Template::$_smarty is deprecated
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(343) 2: Undefined array key "icon"
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(451) 2: Undefined array key "icon"
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\cache\templates_c\d0521ac8852d0e437c6b11cdd87b63da7a915289_0.file.members.tpl.php(33) 2: Undefined array key "WIDGETS_LEFT"
+[2023-12-04, 05:01:29] C:\xampp\htdocs\roster\cache\templates_c\d0521ac8852d0e437c6b11cdd87b63da7a915289_0.file.members.tpl.php(33) 2: Attempt to read property "value" on null
+[2023-12-04, 05:01:54] C:\xampp\htdocs\roster\core\classes\Misc\NamelessOAuth.php(148) 2: Attempt to read property "enabled" on null
+[2023-12-04, 05:01:54] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(365) 8192: Creation of dynamic property Cobalt_Template::$_widgets is deprecated
+[2023-12-04, 05:01:54] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(366) 8192: Creation of dynamic property Cobalt_Template::$_cache is deprecated
+[2023-12-04, 05:01:54] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(367) 8192: Creation of dynamic property Cobalt_Template::$_smarty is deprecated
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\vendor\smarty\smarty\libs\sysplugins\smarty_internal_compile_private_modifier.php(112) 16384: Using php-function "defined" as a modifier is deprecated and will be removed in a future release. Use Smarty::registerPlugin to explicitly register a custom modifier.
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\vendor\smarty\smarty\libs\sysplugins\smarty_internal_compile_private_modifier.php(112) 16384: Using php-function "defined" as a modifier is deprecated and will be removed in a future release. Use Smarty::registerPlugin to explicitly register a custom modifier.
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\vendor\smarty\smarty\libs\sysplugins\smarty_internal_compile_private_modifier.php(112) 16384: Using php-function "defined" as a modifier is deprecated and will be removed in a future release. Use Smarty::registerPlugin to explicitly register a custom modifier.
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\vendor\smarty\smarty\libs\sysplugins\smarty_internal_compile_private_modifier.php(112) 16384: Using php-function "defined" as a modifier is deprecated and will be removed in a future release. Use Smarty::registerPlugin to explicitly register a custom modifier.
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\vendor\smarty\smarty\libs\sysplugins\smarty_internal_compile_private_modifier.php(112) 16384: Using php-function "defined" as a modifier is deprecated and will be removed in a future release. Use Smarty::registerPlugin to explicitly register a custom modifier.
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\vendor\smarty\smarty\libs\sysplugins\smarty_internal_compile_private_modifier.php(112) 16384: Using php-function "defined" as a modifier is deprecated and will be removed in a future release. Use Smarty::registerPlugin to explicitly register a custom modifier.
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\vendor\smarty\smarty\libs\sysplugins\smarty_internal_compile_private_modifier.php(112) 16384: Using php-function "defined" as a modifier is deprecated and will be removed in a future release. Use Smarty::registerPlugin to explicitly register a custom modifier.
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(343) 2: Undefined array key "icon"
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(451) 2: Undefined array key "icon"
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\cache\templates_c\d0521ac8852d0e437c6b11cdd87b63da7a915289_0.file.members.tpl.php(33) 2: Undefined array key "WIDGETS_LEFT"
+[2023-12-04, 05:01:55] C:\xampp\htdocs\roster\cache\templates_c\d0521ac8852d0e437c6b11cdd87b63da7a915289_0.file.members.tpl.php(33) 2: Attempt to read property "value" on null
+[2023-12-04, 05:03:56] C:\xampp\htdocs\roster\core\classes\Misc\NamelessOAuth.php(148) 2: Attempt to read property "enabled" on null
+[2023-12-04, 05:03:56] C:\xampp\htdocs\roster\core\templates\frontend_init.php(50) 2: Undefined array key "route"
+[2023-12-04, 05:03:56] C:\xampp\htdocs\roster\core\templates\frontend_init.php(50) 8192: str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(365) 8192: Creation of dynamic property Cobalt_Template::$_widgets is deprecated
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(366) 8192: Creation of dynamic property Cobalt_Template::$_cache is deprecated
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(367) 8192: Creation of dynamic property Cobalt_Template::$_smarty is deprecated
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\cache\templates_c\081ac8a5215cf2a4c34d655a16a19400fd48864c_0.file.statistics.tpl.php(52) 2: Undefined array key "LAST_MEMBER_VALUE"
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\cache\templates_c\081ac8a5215cf2a4c34d655a16a19400fd48864c_0.file.statistics.tpl.php(52) 2: Attempt to read property "value" on null
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\cache\templates_c\081ac8a5215cf2a4c34d655a16a19400fd48864c_0.file.statistics.tpl.php(52) 2: Trying to access array offset on value of type null
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(352) 2: Undefined array key "icon"
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(343) 2: Undefined array key "icon"
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(460) 2: Undefined array key "icon"
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\cache\templates_c\54ce7ddb021f524c6c752dadfd9f5dc0bf8aeeb4_0.file.navbar.tpl.php(451) 2: Undefined array key "icon"
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\vendor\smarty\smarty\libs\sysplugins\smarty_internal_compile_private_modifier.php(112) 16384: Using php-function "date" as a modifier is deprecated and will be removed in a future release. Use Smarty::registerPlugin to explicitly register a custom modifier.
+[2023-12-04, 05:03:57] C:\xampp\htdocs\roster\vendor\smarty\smarty\libs\sysplugins\smarty_internal_compile_private_modifier.php(112) 16384: Using php-function "date" as a modifier is deprecated and will be removed in a future release. Use Smarty::registerPlugin to explicitly register a custom modifier.
+[2023-12-04, 05:03:58] C:\xampp\htdocs\roster\core\classes\Misc\NamelessOAuth.php(148) 2: Attempt to read property "enabled" on null
+[2023-12-04, 05:03:58] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(365) 8192: Creation of dynamic property Cobalt_Template::$_widgets is deprecated
+[2023-12-04, 05:03:58] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(366) 8192: Creation of dynamic property Cobalt_Template::$_cache is deprecated
+[2023-12-04, 05:03:58] C:\xampp\htdocs\roster\custom\templates\Cobalt\template.php(367) 8192: Creation of dynamic property Cobalt_Template::$_smarty is deprecated
+[2023-12-04, 05:03:58] C:\xampp\htdocs\roster\core\templates\frontend_init.php(129) 2: Undefined variable $page_title
+[2023-12-04, 05:04:02] C:\xampp\htdocs\roster\core\templates\frontend_init.php(50) 2: Undefined array key "route"
+[2023-12-04, 05:04:02] C:\xampp\htdocs\roster\core\templates\frontend_init.php(50) 8192: str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated
+[2023-12-04, 05:04:02] C:\xampp\htdocs\roster\core\classes\Core\User.php(530) 2: Attempt to read property "id" on null
+[2023-12-04, 05:04:02] C:\xampp\htdocs\roster\core\classes\Core\User.php(533) 2: Attempt to read property "id" on null
+[2023-12-04, 05:04:02] C:\xampp\htdocs\roster\core\classes\Core\User.php(542) 2: Attempt to read property "id" on null
+[2023-12-04, 05:04:02] C:\xampp\htdocs\roster\core\classes\Core\User.php(144) 2: Attempt to read property "id" on null
+[2023-12-04, 06:05:11] C:\xampp\htdocs\roster\core\init.php(648) 2: Undefined array key "checked"
+[2023-12-04, 06:05:11] C:\xampp\htdocs\roster\core\templates\frontend_init.php(50) 2: Undefined array key "route"
+[2023-12-04, 06:05:11] C:\xampp\htdocs\roster\core\templates\frontend_init.php(50) 8192: str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated
+[2023-12-04, 06:05:12] C:\xampp\htdocs\roster\core\classes\Core\User.php(530) 2: Attempt to read property "id" on null
+[2023-12-04, 06:05:12] C:\xampp\htdocs\roster\core\classes\Core\User.php(533) 2: Attempt to read property "id" on null
+[2023-12-04, 06:05:12] C:\xampp\htdocs\roster\core\classes\Core\User.php(542) 2: Attempt to read property "id" on null
+[2023-12-04, 06:05:12] C:\xampp\htdocs\roster\core\classes\Core\User.php(144) 2: Attempt to read property "id" on null
+[2023-12-04, 06:05:13] C:\xampp\htdocs\roster\core\templates\frontend_init.php(50) 2: Undefined array key "route"
+[2023-12-04, 06:05:13] C:\xampp\htdocs\roster\core\templates\frontend_init.php(50) 8192: str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated
+[2023-12-04, 06:05:13] C:\xampp\htdocs\roster\core\classes\Core\User.php(530) 2: Attempt to read property "id" on null
+[2023-12-04, 06:05:13] C:\xampp\htdocs\roster\core\classes\Core\User.php(533) 2: Attempt to read property "id" on null
+[2023-12-04, 06:05:13] C:\xampp\htdocs\roster\core\classes\Core\User.php(542) 2: Attempt to read property "id" on null
+[2023-12-04, 06:05:13] C:\xampp\htdocs\roster\core\classes\Core\User.php(144) 2: Attempt to read property "id" on null
+[2023-12-04, 06:05:19] C:\xampp\htdocs\roster\core\templates\frontend_init.php(50) 2: Undefined array key "route"
+[2023-12-04, 06:05:19] C:\xampp\htdocs\roster\core\templates\frontend_init.php(50) 8192: str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated
+[2023-12-04, 06:05:19] C:\xampp\htdocs\roster\core\classes\Core\User.php(530) 2: Attempt to read property "id" on null
+[2023-12-04, 06:05:19] C:\xampp\htdocs\roster\core\classes\Core\User.php(533) 2: Attempt to read property "id" on null
+[2023-12-04, 06:05:19] C:\xampp\htdocs\roster\core\classes\Core\User.php(542) 2: Attempt to read property "id" on null
+[2023-12-04, 06:05:19] C:\xampp\htdocs\roster\core\classes\Core\User.php(144) 2: Attempt to read property "id" on null
