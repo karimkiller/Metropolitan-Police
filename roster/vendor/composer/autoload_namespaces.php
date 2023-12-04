@@ -6,10 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'UpdateHelper\\' => array($vendorDir . '/kylekatarnls/update-helper/src'),
-    'Guzzle\\Stream' => array($vendorDir . '/guzzle/stream'),
-    'Guzzle\\Parser' => array($vendorDir . '/guzzle/parser'),
-    'Guzzle\\Http' => array($vendorDir . '/guzzle/http'),
-    'Guzzle\\Common' => array($vendorDir . '/guzzle/common'),
-    'Evenement' => array($vendorDir . '/evenement/evenement/src'),
+    'SitemapPHP' => array($vendorDir . '/evert/sitemap-php/src'),
+    'HTMLPurifier' => array($vendorDir . '/ezyang/htmlpurifier/library'),
 );
